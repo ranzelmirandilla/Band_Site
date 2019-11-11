@@ -24,26 +24,29 @@ body {
 .container {
   border: 2px solid gray;
   background:gray;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  float: left;
+  width: 90%;
+  margin: 0 auto;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* float: left; */
   /* flex-direction: row; */
   /* flex-wrap: wrap; */
   /*padding:10px;*/
-  width: 23%;
+
   /* align-content: flex-end; */
   /*align-items:center;*/
 }
 
 .item {
-  padding:10px;
-  margin:10px;
+  /* padding:10px; */
+  /* margin:10px; */
   background-color: turquoise;
   border: 2px solid black;
-  font-family: 'Shadows Into Light', cursive; 
-  /*width: 100px;
-  height: 100px;*/
+  font-family: 'Shadows Into Light', cursive;
+  max-width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  height: 400px;
 }
 
 .item.item-1 {
@@ -51,7 +54,6 @@ background-image: url("https://images.unsplash.com/photo-1567663711269-0351025d1
 background-repeat: no-repeat;
 background-size:cover;
 /*background-position: center;*/
-max-width: 100%;
 }
 
 .photo {
@@ -67,7 +69,7 @@ max-width: 100%;
     flex-basis: 150;
     text-align: center;*/
 
-}
+
 /*
 footer{
   padding-top: 75px;
