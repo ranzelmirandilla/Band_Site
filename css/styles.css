@@ -40,7 +40,10 @@ img{
     font-size: 1.1rem;
     box-shadow: 0px 1px 5px black;
 }
-
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
 /* TOP GRID */
 
 .band-pic{
@@ -52,18 +55,28 @@ img{
   }
 .band{
     grid-area: band;
-    min-height: 400px;
-    background: url(img/band-pic.jpeg);
+    min-height: 500px;
+    background: url(../img/band1.jpg);
     background-size: cover;
     background-position: center;
-    
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
     box-shadow: 0px 1px 5px black;
       }
-
+.band h1{
+  font-size: 50px;
+  color: #FFF0CE;
+  margin-left: 45%;
+  margin-bottom: 0;
+}
+.band p{
+  font-size: 30px;
+  color: #FFF0CE;
+  margin-top: 0;
+}
 .top-links{
     grid-area: top-links;
     display: grid;
@@ -91,10 +104,17 @@ img{
     padding: 1.5rem 2rem;
     box-shadow: 0px 1px 5px black;
     /* font-size: 28px; */
+    
   }
+ 
   footer {
     margin-top: 2rem;
     text-align: center;
     padding: 1rem;
   }
  
+.social li{
+  display: inline;
+  list-style: none;
+  padding: 10px;
+}
