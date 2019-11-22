@@ -7,9 +7,20 @@ body{
     margin: 30px 50px;
     background: #c0dfd9;
 }
-header{
-  text-align: center;
+.logo{
+  float:left;
+  width:67%;
+  display:block;
+  padding-bottom: 10px;
 }
+.videowrapper {
+  display:block;
+  width:33%;
+  float:left;
+}
+
+
+
 .btn {
   background: burlywood;
   /* color: var(--light); */
@@ -28,6 +39,7 @@ img{
     padding: 0;
     list-style: none;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    clear: both;
     
   }
 .main-nav a {
