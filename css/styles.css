@@ -45,7 +45,7 @@ img{
 .main-nav a {
     background: #FFF0CE;
     display: block;
-    
+    text-decoration: none;
     padding: 10px;
     text-align: center;
     /* color: #FFF0CE; */
