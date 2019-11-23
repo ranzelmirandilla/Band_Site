@@ -4,9 +4,6 @@ html{
     
 }
 
-@media only screen and (max-width: 400px) {
-  }
-
 body{
     margin: 30px 50px;
     background: #c0dfd9;
@@ -133,4 +130,10 @@ img{
   display: inline;
   list-style: none;
   padding: 10px;
+}
+
+@media screen and (max-device-width:480px) {
+  .logo
+    float: none;
+    width: 100%;
 }
