@@ -130,6 +130,10 @@ img{
     text-align: center;
     padding: 1rem;
   }
+
+  footer a {
+    text-decoration: none;
+  }
  
 .social li{
   display: inline;
