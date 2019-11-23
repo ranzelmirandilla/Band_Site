@@ -70,7 +70,7 @@ img{
 .band{
     grid-area: band;
     min-height: 500px;
-    background: url(../img/band1.jpg);
+    background: url(../img/band1-1.png);
     background-size: cover;
     background-position: center;
     padding: 10px;
@@ -79,17 +79,21 @@ img{
     align-items: start;
     justify-content: center;
     box-shadow: 0px 1px 5px black;
+    
       }
 .band h1{
   font-size: 50px;
-  color: #FFF0CE;
-  margin-left: 45%;
+  color: black;
+  margin-left: 43%;
   margin-bottom: 0;
+  
 }
 .band p{
   font-size: 30px;
-  color: #FFF0CE;
+  color: black;
   margin-top: 0;
+  
+  
 }
 .top-links{
     grid-area: top-links;
